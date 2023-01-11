@@ -1,6 +1,6 @@
 {
   "name": "craq-react-redux",
-  "version": "0.0.2",
+  "version": "0.1.0",
   "description": "craq react-react bindings",
   "main": "dist/index.js",
   "scripts": {
@@ -15,14 +15,12 @@
   "author": "Dmitry Kravchenko",
   "license": "ISC",
   "peerDependencies": {
-    "@reduxjs/toolkit": "^1.9.1",
-    "craq": "^0.3.5",
-    "craq-react-renderer": "^0.3.0",
     "react": "^18.2.0"
   },
   "devDependencies": {
     "@types/jest": "^26.0.23",
     "@types/react": "^18.0.26",
+    "craq": "^0.4.0",
     "jest": "^26.6.3",
     "prettier": "^2.3.0",
     "ts-jest": "^26.5.6",
