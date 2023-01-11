@@ -1,6 +1,6 @@
 {
   "name": "craq-react-redux",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "craq react-react bindings",
   "main": "dist/index.js",
   "scripts": {
@@ -16,8 +16,8 @@
   "license": "ISC",
   "peerDependencies": {
     "@reduxjs/toolkit": "^1.9.1",
-    "craq": "^0.2.1",
-    "craq-react-renderer": "^0.2.0",
+    "craq": "^0.3.5",
+    "craq-react-renderer": "^0.3.0",
     "react": "^18.2.0"
   },
   "devDependencies": {
