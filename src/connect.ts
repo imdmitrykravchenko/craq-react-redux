@@ -10,7 +10,7 @@ import { ComponentContext } from 'craq';
 
 import craqReactReduxContext from './context';
 
-const useSelector = createSelectorHook(craqReactReduxContext);
+export const useSelector = createSelectorHook(craqReactReduxContext);
 
 const createConnect = <S>(context: Context<ComponentContext<S>>) => {
   const connect = <S, T, P, C extends ComponentType<Partial<T & P>>>(

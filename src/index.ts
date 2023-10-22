@@ -1,4 +1,4 @@
 import { CraqReactReduxProvider } from './context';
-import createConnect from './connect';
+import createConnect, { useSelector } from './connect';
 
-export { CraqReactReduxProvider, createConnect };
+export { CraqReactReduxProvider, createConnect, useSelector };
